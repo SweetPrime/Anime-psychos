@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnimeVerse – Watch Anime Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🍥 AnimeVerse</h1>
+  <p>Watch Anime in HD – Free</p>
+</header>
+
+<main>
+  <div class="card">
+    <img src="anime.jpg" alt="Anime Thumbnail">
+    <h2>Attack on Titan – Episode 1</h2>
+    <button id="playBtn">▶ Play Episode</button>
+  </div>
+</main>
+
+<!-- Fake loading -->
+<div id="loading" class="hidden">
+  <h2>Loading episode...</h2>
+</div>
+
+<!-- Prank Screen -->
+<div id="prank" class="hidden">
+  <video id="prankVideo" loop playsinline>
+    <source src="prank.mp4" type="video/mp4">
+  </video>
+
+  <h1>😄 KYO NAHI HO RAHI PADHAI?</h1>
+</div>
+
+<audio id="memeAudio" loop>
+  <source src="meme.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
